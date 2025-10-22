@@ -1,0 +1,50 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8946f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bgGradient)" rx="150"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="150" cy="280" rx="80" ry="15" fill="#e9ecef" opacity="0.3"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="120" rx="60" ry="70" fill="url(#faceGradient)"/>
+  
+  <!-- Hair -->
+  <path d="M 90 80 Q 150 40 210 80 Q 200 100 150 100 Q 100 100 90 80" fill="#2c3e50"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="130" cy="110" rx="8" ry="12" fill="#2c3e50"/>
+  <ellipse cx="170" cy="110" rx="8" ry="12" fill="#2c3e50"/>
+  <ellipse cx="130" cy="108" rx="3" ry="4" fill="#ffffff"/>
+  <ellipse cx="170" cy="108" rx="3" ry="4" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 115 95 Q 130 90 145 95" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  <path d="M 155 95 Q 170 90 185 95" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="130" rx="4" ry="8" fill="#a67c52"/>
+  
+  <!-- Mouth -->
+  <path d="M 135 150 Q 150 160 165 150" stroke="#8b4513" stroke-width="2" fill="none"/>
+  
+  <!-- Beard -->
+  <path d="M 120 160 Q 150 180 180 160 Q 175 200 150 195 Q 125 200 120 160" fill="#2c3e50"/>
+  
+  <!-- Shirt -->
+  <rect x="100" y="200" width="100" height="80" fill="#4a90e2" rx="5"/>
+  <rect x="120" y="200" width="60" height="40" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Collar -->
+  <path d="M 130 200 L 150 220 L 170 200" fill="#ffffff" opacity="0.2"/>
+</svg>

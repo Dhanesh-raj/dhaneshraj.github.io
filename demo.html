@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Project - Feature Demo</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            margin: 0;
+            padding: 2rem;
+            color: #1e293b;
+        }
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .demo-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .demo-title {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        .demo-subtitle {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 1.5rem;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        .feature-description {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        .cta-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 1.5rem;
+            padding: 3rem;
+            margin-top: 3rem;
+        }
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 0 1rem;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+        }
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .tech-badge {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1 class="demo-title">GitHub Profile Project</h1>
+            <p class="demo-subtitle">Professional, Animated, and Modern GitHub Profile for Senior Researchers</p>
+            
+            <div class="tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript ES6+</span>
+                <span class="tech-badge">Glassmorphism</span>
+                <span class="tech-badge">Responsive Design</span>
+                <span class="tech-badge">Accessibility</span>
+            </div>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3 class="feature-title">White Theme Design</h3>
+                <p class="feature-description">Modern white theme with professional color scheme, high contrast, and clean aesthetics perfect for academic profiles.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🖼️</div>
+                <h3 class="feature-title">Professional Photo</h3>
+                <p class="feature-description">Custom SVG profile photo with white background, hover effects, and professional presentation.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">✨</div>
+                <h3 class="feature-title">Advanced Hover Effects</h3>
+                <p class="feature-description">Sophisticated microinteractions, ripple effects, scale animations, and smooth transitions throughout the interface.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔮</div>
+                <h3 class="feature-title">Glassmorphism</h3>
+                <p class="feature-description">Modern glassmorphism effects with backdrop blur, translucent backgrounds, and layered depth.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🧭</div>
+                <h3 class="feature-title">Advanced Navigation</h3>
+                <p class="feature-description">Sticky navigation with blur effects, mobile hamburger menu, smooth scrolling, and back-to-top functionality.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3 class="feature-title">Responsive Design</h3>
+                <p class="feature-description">Fully responsive layout that adapts to all screen sizes with mobile-first approach and touch-friendly interactions.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">♿</div>
+                <h3 class="feature-title">Accessibility</h3>
+                <p class="feature-description">WCAG compliant with keyboard navigation, screen reader support, focus indicators, and reduced motion support.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Performance Optimized</h3>
+                <p class="feature-description">Throttled scroll events, lazy loading, intersection observers, and optimized animations for smooth performance.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎭</div>
+                <h3 class="feature-title">Parallax Effects</h3>
+                <p class="feature-description">Subtle parallax scrolling, floating shapes, animated backgrounds, and depth layering for visual interest.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="margin-bottom: 1rem; color: #2563eb;">Ready to Get Started?</h2>
+            <p style="color: #64748b; margin-bottom: 2rem;">Choose how you'd like to use this project:</p>
+            
+            <a href="index.html" class="cta-button">
+                <span>View Live Demo</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17L17 7"/>
+                    <path d="M7 7H17V17"/>
+                </svg>
+            </a>
+            
+            <a href="README.md" class="cta-button" style="background: rgba(255, 255, 255, 0.25); color: #2563eb; border: 1px solid rgba(255, 255, 255, 0.2);">
+                <span>Read Documentation</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14,2 14,8 20,8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10,9 9,9 8,9"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

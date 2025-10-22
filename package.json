@@ -1,0 +1,47 @@
+{
+  "name": "github-profile-project",
+  "version": "1.0.0",
+  "description": "A professional, animated GitHub profile README designed specifically for Senior Researchers",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build process needed for static HTML project'",
+    "lint": "npx htmlhint index.html && npx stylelint css/style.css && npx eslint js/script.js",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "researcher",
+    "academic",
+    "portfolio",
+    "html",
+    "css",
+    "javascript",
+    "animation",
+    "responsive"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/github-profile-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/github-profile-project/issues"
+  },
+  "homepage": "https://github.com/yourusername/github-profile-project#readme",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.11.0",
+    "eslint": "^8.55.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
